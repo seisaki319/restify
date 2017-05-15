@@ -2,7 +2,6 @@
 //We can write further helper methods to store times permanently.
 
 var restify = require('restify');
-var moment = require('moment-timezone');
 var times = new Map();
 
 function respondSet(req, res, next) {
